@@ -5,3 +5,27 @@
     border-color: black;
     border-style: solid;
 }
+
+
+#_elev_io>div>div>div._vvuy8>div>div._45r9y._elevio_navbar {
+    background-color: grey
+}
+
+#_elev_io ._elevio_module_icon>div:first-child {
+    border-radius: 10px !important;
+    background-color: #white !important;
+    padding: 15px !important
+}
+
+#_elev_io ._d9ggd svg {
+    /* display: none */
+}
+
+._elevio_module_icon ._elevio_module_icon_3 ._d9ggd {
+    /* background-image: url(https://icon-library.com/images/video-camera-icon-png/video-camera-icon-png-1.jpg); */
+    height: 10px;
+    width: 10px;
+    background-size: cover;
+    border: 10px solid transparent;
+    background-repeat: no-repeat
+}
