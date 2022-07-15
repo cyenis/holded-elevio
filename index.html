@@ -46,6 +46,29 @@
          * For passing user information, please see
          * https://api-docs.elevio.help/en/articles/24
          */
+
+
+        window._elev.on('load', function (_elev) {
+
+            _elev.setUser({
+                email: "costas@holded.com",
+            });
+
+
+            _elev.setSettings({
+                auto_open: true,
+                hideLauncher: false,
+                kbLink: function (params, defaultKbLink) {
+                    return 'https://academy.holded.com/hc/' + params.languageId + '/articles/' + params.externalId;
+                },
+            });
+
+        _elev.setLanguage('es');
+
+
+        });
+
+
     </script>
 
     <script>
