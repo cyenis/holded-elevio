@@ -1,3 +1,14 @@
+/* Whole widget thinner */
+._iw3lm {
+    Width: 420px !important;
+
+}
+
+/* Navbar styling */
+#_elev_io ._jfgu2 svg{
+    fill: #374151!important;
+}
+
 ._elevio_navbar {
     background-color: #FFFFFF !important;
 }
@@ -14,11 +25,7 @@
     background-color: #FFFFFF !important;
 }
 
-/* Whole widget thinner */
-._iw3lm {
-    Width: 420px !important;
 
-}
 
 ._elevio_search {
     border: 1px solid #D1D5DB !important;
