@@ -1,3 +1,63 @@
+._elevio_navbar {
+    background-color: #FFFFFF !important;
+}
+
+
+._ahxts {
+    color: #1F2937 !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+    font-weight: 500px !important;
+}
+
+#_elev_io {
+    background-color: #FFFFFF !important;
+}
+
+/* Whole widget thinner */
+._iw3lm {
+    Width: 420px !important;
+
+}
+
+._elevio_search {
+    border: 1px solid #D1D5DB !important;
+}
+
+
+._1ctbz {
+    background-color: #FFFFFF !important;
+}
+
+/* Module icons */
+._1bt1k {
+    font-size: 14px !important;
+    line-height: 20px !important;
+    color: #1F2937 !important;
+}
+
+._cnzpc {
+    padding: 20px 24px !important;
+}
+
+._d9ggd {
+    border-radius: 6px !important;
+    margin: 0 auto 12px !important;
+    padding: 16px !important;
+    background-color: #4181F2 !important;
+    box-shadow: none !important;
+
+
+}
+
+#_elev_io ._d9ggd svg {
+    fill: #FFFFFF !important;
+
+}
+
+
+
+
 #widget {
     max-width: 300px;
     padding: 10px;
