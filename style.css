@@ -5,8 +5,8 @@
 }
 
 /* Navbar styling */
-#_elev_io ._jfgu2 svg{
-    fill: #374151!important;
+#_elev_io ._jfgu2 svg {
+    fill: #374151 !important;
 }
 
 ._elevio_navbar {
@@ -36,24 +36,60 @@
     background-color: #FFFFFF !important;
 }
 
-/* Module icons */
-._1bt1k {
-    font-size: 14px !important;
-    line-height: 20px !important;
-    color: #1F2937 !important;
+
+/* Hide article list */
+
+._6o66j {
+    display: none !important;
 }
+
+/* Hide burger menu */
+._tg3i2 {
+    display: none !important;
+}
+
+
+/* Module grid */
 
 ._cnzpc {
     padding: 20px 24px !important;
 }
 
+._cnzpc>div {
+    display: block !important;
+}
+
+/* Module row */
+
+._4fjpa {
+    display: flex !important;
+    max-width: 100% !important;
+    margin-top: 10px !important;
+    
+}
+
+/* Module title */
+
+._1bt1k {
+    flex: 1 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    color: #1F2937 !important;
+    text-align: left !important;
+    margin-left: 20px !important;
+    padding-top: 15px !important;
+}
+
+/* Module icon */
 ._d9ggd {
+    flex: 1 !important;
     border-radius: 6px !important;
     margin: 0 auto 12px !important;
     padding: 16px !important;
     background-color: #4181F2 !important;
     box-shadow: none !important;
-
+    max-height: 25px!important;
+    max-width: 25px!important;
 
 }
 
