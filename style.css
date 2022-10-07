@@ -203,3 +203,17 @@
     border: 10px solid transparent;
     background-repeat: no-repeat;
 } */
+
+
+
+
+/* Article Styling */
+
+
+._elevio_article_body ._elevio_article_body .boxed  {
+    padding: 12px !important;
+    border: 1px solid red !important;
+    border-radius: 6px !important;
+    cursor: pointer !important;
+    color:red !important;
+}

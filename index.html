@@ -10,28 +10,78 @@
     <title>Help Widget</title>
     <link rel="stylesheet" href="./style.css?version=0.16">
 
-</head>
-<style>
-    body,
-    html {
-        height: 100%;
-    }
+    <head>
 
-    .bg {
-        /* The image used */
-        background-image: url("./dashboard-dummy.png");
+        <script>
+            window.adaSettings = {
+                handle: "holded-didi",
+                language: "es",
+                metaFields: {
+                    name: "Ada Lovelace",
+                    emai:"tester@holded.com"
+                  }
+            };
+        </script>
 
-        /* Full height */
-        height: 100%;
+        <script src="https://static.ada.support/embed2.js"></script>
 
-    }
-</style>
+    </head>
+
+    <style>
+        body,
+        html {
+            height: 100%;
+        }
+
+        .bg {
+            /* The image used */
+            background-image: url("./dashboard-dummy.png");
+
+            /* Full height */
+            height: 100%;
+        }
+
+        .ada-control-panel {
+            padding: 10%;
+        }
+    </style>
 
 <body>
-    <div class="bg">
+
+    <div class="ada-control-panel">
+        <h1>Welcome to our new chatbot testing</h1>
+        <h2>Instructions:</h2>
+        <p>Please try to ask the bot questions our customers could ask and give feedback on what it can be improved</p>
+        <div>
+            <div class="asana-embed-container">
+                <link rel="stylesheet" href="https://form.asana.com/static/asana-form-embed-style.css" /><iframe
+                    class="asana-embed-iframe" height="533" width="800"
+                    src="https://form.asana.com/?k=0dOUA-xPcQqwAq8ksiSszw&d=164669635061363&embed=true"></iframe>
+                <div class="asana-embed-footer"><a rel="nofollow noopener" target="_blank"
+                        class="asana-embed-footer-link" href="https://asana.com/?utm_source=embedded_form"><span
+                            class="asana-embed-footer-text">Form powered by</span>
+                        <div class="asana-embed-footer-logo" role="img" aria-label="Logo of Asana"></div>
+                    </a></div>
+            </div>
+        </div>
+    </div>
 
 
-        <!-- <div id="widget">
+
+    <!-- <div class="bg"> -->
+
+    <!-- <span data-elevio-inline="3">Configure your Dashboard</span>
+        <a href="#?data-elevio-article=3">Hello</a>
+
+
+
+        <div>
+            <button data-elevio-inline="481">Hello</button>
+        </div> -->
+
+
+
+    <!-- <div id="widget">
             <h2>IMPORTANT! Here are the embedable elements NOT how the widget will look.
                 To see there real widget click on [?]
             </h2>
@@ -58,13 +108,15 @@
 
     </div>
 
+
+
+
     <script>
         !function (e, l, v, i, o, n) { e[i] || (e[i] = {}), e[i].account_id = n; var g, h; g = l.createElement(v), g.type = "text/javascript", g.async = 1, g.src = o + n, h = l.getElementsByTagName(v)[0], h.parentNode.insertBefore(g, h); e[i].q = []; e[i].on = function (z, y) { e[i].q.push([z, y]) } }(window, document, "script", "_elev", "https://cdn.elev.io/sdk/bootloader/v4/elevio-bootloader.js?cid=", "627cd5c665ee8");
         /*
          * For passing user information, please see
          * https://api-docs.elevio.help/en/articles/24
          */
-
 
         window._elev.on('load', function (_elev) {
 
@@ -73,7 +125,6 @@
                 user_hash: 'd1c4b726f0a45cabf1c9d064ef7fa2b6ba8e857ab49f18c0c9a8485ab5f284f3',
             });
 
-
             _elev.setSettings({
                 auto_open: true,
                 hideLauncher: false,
@@ -81,13 +132,14 @@
                     return 'https://academy.holded.com/hc/' + params.languageId + '/articles/' + params.externalId;
                 },
             });
-
             _elev.setLanguage('es');
-
-
         });
+    </script>
 
 
+    <script>
+        // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/gwbpci68'
+        (function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', w.intercomSettings); } else { var d = document; var i = function () { i.c(arguments); }; i.q = []; i.c = function (args) { i.q.push(args); }; w.Intercom = i; var l = function () { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/gwbpci68'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }; if (document.readyState === 'complete') { l(); } else if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })();
     </script>
 
     <script>
@@ -99,10 +151,6 @@
         };
     </script>
 
-    <script>
-        // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/gwbpci68'
-        (function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', w.intercomSettings); } else { var d = document; var i = function () { i.c(arguments); }; i.q = []; i.c = function (args) { i.q.push(args); }; w.Intercom = i; var l = function () { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/gwbpci68'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }; if (document.readyState === 'complete') { l(); } else if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })();
-    </script>
 
 </body>
 
